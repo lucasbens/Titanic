@@ -17,7 +17,7 @@ My approach to solving this problem involved several steps:
 
 3. **Feature Engineering:** Based on our EDA, I created new features such as `connected_survival`, `FamilySize` and `Title` to capture additional information. I also cleaned the data by removing irrelevant columns and filling in missing values. 
 
-4. **Model Selection:** I tested several models on the data using LazyPredict library. I selected the models with the best performance on the validation set.
+4. **Model Selection:** I tested several models on the data using LazyPredict library. I selected the models with the best performance on the validation set. I tested also neural networks.
 
 5. **Hyperparameter Tuning:** I fine-tuned the hyperparameters of our selected models, including logistic regression, decision trees, and random forests using grid search. Random forests had the best perfomance.
 
